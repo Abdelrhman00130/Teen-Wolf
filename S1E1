@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Quality Options</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #121212;
+            margin: 0;
+            padding: 20px;
+            color: #e0e0e0;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            background: #1e1e1e;
+            border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            background: #2a2a2a;
+            margin: 10px 0;
+            padding: 20px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 18px;
+            transition: background 0.3s ease;
+        }
+        li:hover {
+            background: #333333;
+        }
+        a {
+            text-decoration: none;
+            color: #1e90ff;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* الوضع المظلم */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #121212;
+                color: #e0e0e0;
+            }
+            .container {
+                background-color: #1e1e1e;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+            li {
+                background-color: #2a2a2a;
+                color: #e0e0e0;
+            }
+            li:hover {
+                background-color: #333333;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Select Video Quality</h2>
+        <ul>
+            <li>
+                480p - <a href="https://uk2y0xwy2xup0.premilkyway.com/hls2/01/02267/vpl6a2xzfbuz_,n,h,x,.urlset/index-f1-v1-a1.m3u8?t=Tb7WA31eQesnAOqrcTTlr3LUCRSxlimY6BNDfrlDAe4&s=1733481309&e=129600&f=11339165&srv=js4BwLKgfmTMJmVh&i=0.0&sp=500&p1=js4BwLKgfmTMJmVh&p2=js4BwLKgfmTMJmVh&asn=8452">Watch Now</a>
+            </li>
+            <li>
+                720p - <a href="https://uk2y0xwy2xup0.premilkyway.com/hls2/01/02267/vpl6a2xzfbuz_,n,h,x,.urlset/index-f2-v1-a1.m3u8?t=GeR3E0bblU3DBIOlQK3aX3cLJweTcyjGaCbzQrVY20E&s=1733481492&e=129600&f=11339165&srv=js4BwLKgfmTMJmVh&i=0.0&sp=500&p1=js4BwLKgfmTMJmVh&p2=js4BwLKgfmTMJmVh&asn=8452" target="_blank">Watch Now</a>
+            </li>
+            <li>
+                1080p - <a href="https://uk2y0xwy2xup0.premilkyway.com/hls2/01/02267/vpl6a2xzfbuz_,n,h,x,.urlset/index-f3-v1-a1.m3u8?t=uuAss29HMK2FS-SI2q4FFdMeYTcAUWmzRf4t7lkIHhA&s=1733481527&e=129600&f=11339165&srv=js4BwLKgfmTMJmVh&i=0.0&sp=500&p1=js4BwLKgfmTMJmVh&p2=js4BwLKgfmTMJmVh&asn=8452" target="_blank">Watch Now</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
